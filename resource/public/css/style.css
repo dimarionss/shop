@@ -1,0 +1,1917 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+    /*font-family: 'Rubik', sans-serif; !important;*/
+    /*font-family: 'Ubuntu Mono', monospace !important;*/
+    font-family: 'Roboto', sans-serif !important;
+    letter-spacing: 2px;
+    width: 100%;
+    background: #edffff;
+}
+
+.clr {
+    clear: both;
+}
+
+.logo {
+    font-family: 'VT323', monospace;
+    text-shadow: 1px 1px 2px black, 0 0 1em #000000;
+    font-size: 200px;
+    color: #bafcff;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 150px;
+    display: block;
+}
+
+/*----------------------menu--------------------------*/
+
+#mainmenu {
+    background: #FF4C6D;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    opacity: 0.8;
+}
+
+#mainmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+
+#mainmenu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 20px;
+
+}
+
+#mainmenu ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0 30px;
+    line-height: 60px;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+
+#mainmenu ul li a:hover {
+    background-color: #C37895;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+
+}
+
+.prise-in-menu {
+    color: #deffe2;
+    font-size: 15px;
+}
+.prise-in-menu:hover {
+    color: #00fcff;
+}
+
+
+.succ {
+    margin: 0 auto;
+    width: 960px;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+/*------------------------menu--------------------------*/
+.image {
+    float: left;
+    overflow: hidden;
+    margin: 5px;
+    position: relative;
+    height: 280px;
+    width: 32%;
+    box-shadow: 0px 0px 0px black, 0 0 0.8em #000000;
+}
+
+.image img {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.image p {
+    /*display: block;*/
+    background: #FF4C6D;
+    padding: 15px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*наведение на картинку*/
+.image p:hover {
+    /*display: block;*/
+    padding: 15px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    opacity: 0.7;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+
+.image img:hover {
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+}
+
+/*стили Товары на главной странице-----------------------------------------------------*/
+.imgshopstyle img {
+    padding-bottom: 10px;
+    border: 1px solid #C0C0C0;
+
+}
+
+.buybutton_sh {
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    size: 20px;
+    margin: 5px auto;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #ffa1aa;
+    border: none;
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    width: 100%;
+}
+
+.buybutton_sh:hover {
+    border-radius: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #C37895;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+
+}
+
+.blockshop {
+    max-width: 960px;
+    margin: -50px auto 0 auto;
+    padding: 10px 0;
+}
+
+.item_man_1 {
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, .3);
+    width: 23%;
+    display: inline-block;
+    float: left;
+    margin-left: 25px;
+    margin-top: -10px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    text-align: center;
+    padding: 0 0 50px 0;
+
+}
+
+.item_man_1:first-child {
+    margin-left: 0;
+}
+
+.item_man_1:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: inline-block;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+
+.item_man_1 img {
+    width: 100%;
+
+}
+
+.item_man_1 h3 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #778899;
+    font-size: 20px;
+
+}
+
+.item_man_1 i {
+    color: #808080;
+    font-size: 20px;
+
+}
+
+.old_price_man_1 {
+    color: #DC143C;
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: line-through;
+}
+
+.currency_price_man_1 {
+    text-decoration: none;
+    color: #228B22;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+/*--------------------------Shop---------------------*/
+.blockshop_2 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+
+}
+
+.item_man_2 {
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, .3);
+    width: 31%;
+    height: 290px;
+    display: inline-block;
+    float: left;
+    margin: 3px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+
+}
+
+.item_man_2:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: inline-block;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+
+}
+
+.item_man_2 img {
+    width: 100%;
+
+}
+
+.item_man_2 h3 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #C37895;
+    line-height: 40px;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0.8;
+}
+
+.item_man_2 h3 a:hover {
+    opacity: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 20px;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+}
+
+.item_man_2 span {
+    width: 100%;
+    background-color: #C37895;
+}
+
+.currency_price_man_2 {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    position: absolute;
+    top: 26px;
+    left: 0;
+    opacity: 0.85;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.old_price_man_2 {
+    padding: 2px;
+    color: #000;
+    font-size: 15px;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: line-through;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.85;
+
+}
+
+.buybutton_sh_2 {
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    size: 20px;
+    margin: 5px auto;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #ffa1aa;
+    border: none;
+    position: absolute;
+    top: 220px;
+    right: 0;
+
+    opacity: 0.8;
+}
+
+.buybutton_sh_2:hover {
+    border-radius: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    opacity: 1;
+    background-color: #C37895;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+/*-------------------------good------------------*/
+.blockshop_3 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.item_man_3 {
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, .3);
+    width: 40%;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+}
+
+.item_man_3:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: inline-block;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+
+.item_man_3 img {
+    width: 100%;
+
+}
+
+.blockshop_descrip {
+    width: 58%;
+    float: right;
+    position: relative;
+    height: auto;
+    overflow: hidden;
+}
+
+.blockshop_descrip h3 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #212529;
+    font-size: 30px;
+    opacity: 0.8;
+}
+
+.blockshop_descrip p {
+    text-indent: 10px;
+}
+
+.salecost span {
+    width: 100%;
+}
+
+.salecost {
+    position: relative;
+    width: 40%;
+    height: 190px;
+
+}
+
+.currency_price_man_3 {
+    text-decoration: none;
+    color: #212529;
+    font-size: 45px;
+    overflow: hidden;
+    opacity: 0.85;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.old_price_man_3 {
+    padding: 2px;
+    color: #696969;
+    font-size: 25px;
+    text-align: center;
+    overflow: hidden;
+    text-decoration: line-through;
+    opacity: 0.85;
+
+}
+
+.buybutton_sh_3 {
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    size: 20px;
+    margin: 5px auto;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #696969;
+    position: absolute;
+    bottom: 5px;
+    right: 35%;
+    border: none;
+
+}
+
+.buybutton_sh_3:hover {
+    border-radius: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #212529;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+/*-------------------------cart------------------*/
+.blockshop_4 {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.item_man_4 {
+    box-shadow: 0 3px 10px -2px rgba(0, 0, 0, .3);
+    width: 50%;
+    display: inline-block;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+    background: #fff;
+}
+
+.item_man_4:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    display: inline-block;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+}
+
+.item_man_4 img {
+    width: 25%;
+    float: left;
+
+}
+
+.item_man_4 h3 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #212529;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.currency_price_man_4 {
+    text-decoration: none;
+    color: #212529;
+    font-size: 20px;
+    overflow: hidden;
+    opacity: 0.85;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.buybutton_sh_4 {
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    size: 20px;
+    margin: 5px auto;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #ffa1aa;
+    /*position: absolute;*/
+    /*bottom: 5px;*/
+    /*right: 35%;*/
+    border: none;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+
+}
+
+.buybutton_sh_4:hover {
+    border-radius: 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #fff;
+    background-color: #C37895;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+
+}
+
+.delete_4 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 10px;
+    font-size: 15px;
+    opacity: 0.7;
+    border: none;
+    background-color: #b8d5dc;
+}
+
+.delete_4:hover {
+    opacity: 1;
+    color: #FFFFFF;
+    background-color: #66a5a5;
+}
+
+#num_count {
+    position: absolute;
+    bottom: 5px;
+    left: 270px;
+    opacity: 0.7;
+    border: 0px solid #696969;
+    background-color: #b8d5dc;
+    font-size: 20px;
+    text-align: center;
+}
+
+.buybutt_4 {
+    position: relative;
+    overflow: hidden;
+}
+
+/*-----------------------------------------------------*/
+/*-------------Авторизация---------------------------*/
+
+#modal {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    z-index: 999;
+}
+
+.auth {
+    width: 50%;
+    min-width: 200px;
+    max-width: 250px;
+    height: auto;
+    background: #7ecbae;
+    opacity: 0.9;
+    padding: 20px;
+    position: fixed;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+/*.auth form {*/
+    /*padding: 50px;*/
+/*}*/
+
+.auth button {
+    border: none;
+    background: #fff;
+    font-size: 20px;
+    padding: 0 5px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+
+.auth input{
+
+}
+.auth .formauth {
+    text-align: center;
+    padding: 0;
+    width: 100%;
+    margin: 5px;
+}
+
+.auth a {
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.auth a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.close h1 {
+    float: right;
+    margin-right: 5px;
+    font-size: 20px;
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+.close h1:hover {
+    cursor: pointer;
+    color: #fff;
+
+}
+
+.authorize {
+    width: 200px;
+    height: 50px;
+    background: #8f4856;
+    text-transform: uppercase;
+    overflow: hidden;
+    position: absolute;
+    margin: 20px;
+    top: 40px;
+    right: 25%;
+    opacity: 0.8;
+}
+
+.authorize p {
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 15px;
+
+
+}
+
+.authorize:hover {
+    cursor: pointer;
+    opacity: 1;
+    background: #ffa1aa;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+
+}
+
+/*-----------------------------------------------------*/
+
+div {
+    border: 0 solid #000;
+    padding: 5px;
+    overflow: auto;
+
+}
+
+/*-----------------------------------------------------*/
+
+.leftimg {
+    float: left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 0; /* Отступы вокруг картинки */
+    width: 30%;
+}
+
+.rightimg {
+    float: right; /* Выравнивание по правому краю  */
+    margin: 7px 0 7px 7px; /* Отступы вокруг картинки */
+    width: 70%;
+}
+
+.imgobt {
+    position: absolute;
+    float: left;
+}
+
+.zagolovok {
+    text-align: center;
+    text-transform: uppercase;
+    color: #7ecbae;
+    display: block;
+    padding: 5px;
+    font-size: 25px;
+
+}
+
+/*----------Opisaniye Tovaru---------*/
+
+.opistovar {
+    position: relative;
+    padding-bottom: 80px;
+}
+
+.buybutton {
+    float: right;
+    margin: 5px;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #ffa1aa;
+    border: none;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+
+}
+
+.buybutton:hover {
+    float: right;
+    color: #fff;
+    margin: 5px;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #C37895;
+    -moz-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    -webkit-transition: all 0.3s linear;
+
+}
+
+/*-----------------------Header-----------------*/
+#header1 {
+    background: url(../img/lego/head3.jpg);
+    width: 100%;
+    background-position: center;
+    margin: 0 auto;
+    height: 500px;
+    box-shadow: 0 0 10px #66a5a5, 0 0 1em #000000;;
+}
+
+#header1 h5 {
+    margin: 0 auto;
+    padding: 0;
+    color: #fff;
+}
+
+#header1 img {
+    padding: 0;
+    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
+}
+
+/*-----------------------Header-----------------*/
+
+/*-----------------------BuyVopros-----------------*/
+
+.block article {
+    float: left;
+    margin: 10px auto;
+    padding: 0;
+    max-width: 30%;
+    display: block;
+    margin-left: 23px;
+}
+
+.block article:first-child {
+    margin-left: 0;
+}
+
+.preimush_table {
+    border: 0 solid #000;
+    text-align: center;
+    max-width: 100%;
+    font-size: 15px;
+    margin-top: 10px;
+    /*padding: 5px 10px 5px 10px;*/
+
+}
+
+.block i {
+    font-size: 45px;
+    color: #444;
+    padding: 10px;
+    display: block;
+
+}
+
+.block i:hover {
+    color: #FA8072;
+    overflow: auto;
+    font-size: 50px;
+    padding-bottom: 5px;
+}
+
+/*-----------------------BuyVopros-----------------*/
+
+/*-----------------------Отзывы-----------------*/
+.block img {
+    border-radius: 100px;
+    display: inline-block;
+}
+
+/*-----------------------Отзывы-----------------*/
+/*----------------------Регистрация-----------------*/
+.nameform2 {
+    /*float: left;*/
+    /*width: 390px;*/
+    margin: 0 auto 0 0;
+    overflow: hidden;
+    font-size: 20px;
+    display: block;
+}
+
+.nameform2 .containerform {
+    padding: 10px;
+    float: left;
+}
+
+/*-----------------------Регистрация----------------*/
+
+/*-----------------------Форма заявки-----------------*/
+.formblock {
+    position: relative;
+    overflow: hidden;
+}
+
+.nameform {
+    float: left;
+    width: 390px;
+    margin: 0 auto 0 0;
+    overflow: hidden;
+    font-size: 30px;
+    display: block;
+
+}
+
+.buybutton_form {
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: #ffa1aa;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+
+}
+
+.buybutton_form:hover {
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+
+}
+
+/*-----------------------Форма заявки-----------------*/
+
+/*-----------------------Footer-----------------*/
+#footer1 article {
+    float: left;
+    padding: 5px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.footertableblock, #menufooter{
+    font-size: 15px;
+    text-align: center;
+    max-width: 960px;
+    margin: 5px auto;
+    padding: 0;
+    text-transform: uppercase;
+
+}
+#menufooter2 ul li{
+    font-size: 12px;
+    text-align: center;
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 2px;
+    text-transform: uppercase;
+    display: inline;
+    border-right: 1px solid #444 ;
+}
+#menufooter2 ul li:last-child{
+    border: none;
+}
+
+#menufooter2 a {
+    color: #444;
+    text-decoration: none;
+    margin: 0;
+}
+#menufooter2 a:hover {
+    color: #fff;
+}
+#menufooter ul li{
+    margin: 5px;
+    display: inline;
+}
+
+#menufooter a {
+    color: #444;
+    text-decoration: none;
+    margin: 0;
+}
+
+#menufooter a:hover {
+    color: #fff;
+}
+
+#footer1 {
+    background-color: #85cbcb;
+    max-width: 100%;
+}
+
+.wrapper {
+    text-align: center;
+    margin: 0 auto;
+}
+
+ul.wrap li {
+
+    list-style: none;
+    background-color: #bafcff;
+    border-radius: 40px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 10px auto;
+    font-size: 30px;
+    height: 60px;
+    width: 60px;
+    overflow: hidden;
+}
+
+.wrap i.fa {
+    color: #467373;
+    padding-top: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+
+ul.wrap li:hover {
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+
+}
+
+i.fa-facebook:hover {
+    color: #3b5998;
+
+}
+
+i.fa-vk:hover {
+    color: #45668e;
+
+}
+
+i.fa-youtube:hover {
+    color: #ff0000;
+
+}
+
+i.fa-telegram:hover {
+    color: #0088cc;
+
+}
+
+i.fa-instagram:hover {
+    color: #cd486b;
+
+}
+
+#copyrig {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+
+}
+
+#copyrig:hover {
+    color: #FFE4E1;
+
+}
+
+/*-----------------------Footer-----------------*/
+.container {
+    max-width: 960px !important;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-top: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+/*-----------------------Slider-----------------*/
+
+.slider {
+    z-index: 9;
+    max-width: 960px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+}
+
+.slider ul,
+.slider li {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.slider ul {
+    width: 9999px;
+}
+
+.slider ul li {
+    list-style-type: none;
+    float: left;
+    max-width: 960px;
+    height: 500px;
+}
+
+.slider .nav {
+    position: absolute;
+    left: 45%;
+    bottom: 10px;
+    opacity: 0.5;
+}
+
+.slider .nav span {
+    opacity: 0.9;
+    background: #fff;
+    margin: 0 8px 0 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    overflow: hidden;
+    display: block;
+    float: left;
+    box-shadow: 0 1px 2px #000;
+}
+
+.slider .nav span.on {
+    background: #2e9419;
+}
+
+/*-----------------------Slider----------------*/
+
+.menu-toggle {
+    background: #FF4C6D;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.menu-toggle:hover {
+    text-decoration: none;
+    color: #7ecbae;
+}
+
+
+
+/*------------------Uvedomleniye--------------------*/
+
+
+.futu_alert_outer {
+    position: fixed;
+    bottom: 50px; right: 0px;
+    width: 300px;
+    z-index:9999;
+}
+.futu_alert_outer .frame {
+    height: 200px;
+}
+.futu_alerts_holder {
+    position:absolute;
+    right: 0;
+}
+
+.futu_alerts_holder .futu_alert {
+    position:absolute;
+    background-color:#FFEBA0;
+    font:1.2em Tahoma, sans-serif;
+    margin-left:60px;
+}
+.futu_alerts_holder .futu_alert .futu_alert_header {
+    font-size:1.2em;
+    margin:10px 20px 0;
+}
+.futu_alerts_holder .futu_alert .futu_alert_text {
+    font-size:0.9em;
+    margin:10px 20px;
+}
+.futu_alerts_holder .futu_alert .futu_alert_close_button {
+    position:absolute;
+    padding:10px;
+
+    outline:none;
+}
+.futu_alerts_holder .message {
+    color:#FFF;
+    background-color:#6690C9;
+}
+.futu_alerts_holder .error {
+    color:#FFF;
+    background-color: #ed4e75;
+}
+.futu_alerts_holder .save {
+    color:#FFF;
+    background-color: #4ea194;
+}
+
+/*------------------Uvedomleniye--------------------*/
+
+
+
+
+
+
+/*--------------------Smartphones (portrait) ---------------- */
+
+/*Responsive Styles*/
+
+@media only screen and (max-width : 320px)
+{
+    /*body, html{
+        width: 100%;
+    }*/
+    .logo{
+        font-size: 100px;
+    }
+    #header1 h5{
+        font-size: 20px;
+        word-wrap: break-word;
+        position: relative;
+
+    }
+    .blockshop{
+        margin:0;
+    }
+
+    .item_man_1{
+        width: 100%;
+        margin: 5px auto;
+    }
+    .item_man_1 h3 a{
+        font-size: 20px;
+    }
+    .slider{
+        max-width: 100%;
+    }
+    #mainmenu{
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 170px;
+        right: 0;
+        display: none;
+        opacity: 0.9;
+    }
+    #mainmenu ul li {
+        float: none;
+        margin: 0 5px;
+        font-size: 15px;
+        padding:0;
+        text-align:center;
+    }
+    .menu-toggle{
+        display: block;
+        z-index: 999;
+    }
+    #mainmenu ul{
+        z-index: 999;
+        float: none;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+    .opistovar p{
+        font-size: 30px;
+    }
+    .opistovar img{
+        width:  500px;
+    }
+    .zagolovok{
+        font-size: 40px;
+    }
+    .image {
+        height: 400px;
+        width: 40%;
+    }
+    .image p{
+        font-size: 20px;
+    }
+
+    .review_table, .preimush_table, .buybutton, .currency_price_man_1, .old_price_man_1, .buybutton_sh, .buybutton_form{
+        font-size: 20px;
+    }
+    .buybutton_sh:hover{
+        font-size: 20px;
+    }
+    .footertableblock a, .footertable{
+        font-size: 20px;
+    }
+    .nameform{
+        float: none;
+        font-size: 40px;
+    }
+    .blockshop_2 {
+        width: 100%;
+        padding: 0;
+        overflow: hidden;
+
+    }
+
+    .item_man_2 {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .buybutton_sh_2 {
+        position: absolute;
+        top: 70%;
+        right: 0;
+    }
+}
+
+/* Smartphones (landscape) ---------------- */
+@media only screen and (min-width: 321px) and (max-width: 516px) {
+    /*body, html{
+        width: 100%;
+    }*/
+    /*region Logo*/
+    /*------------Logo----------------*/
+    .logo {
+        font-size: 100px;
+    }
+
+    #header1 h5 {
+        font-size: 20px;
+        word-wrap: break-word;
+        position: relative;
+
+    }
+
+    /*------------Logo----------------*/
+    /*endregion*/
+    /*region menu*/
+    /*------------Menu----------------*/
+    #mainmenu {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 170px;
+        right: 0;
+        display: none;
+        opacity: 0.9;
+    }
+
+    #mainmenu ul li {
+        float: none;
+        margin: 0 5px;
+        font-size: 15px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+        z-index: 999;
+    }
+
+    #mainmenu ul {
+        z-index: 999;
+        float: none;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+    .authorize {
+        position: absolute;
+        margin: 20px;
+        top: 25px;
+        right: 18%;
+    }
+
+    /*------------Menu----------------*/
+    /*endregion*/
+    /*region slider*/
+    /*------------Slider----------------*/
+    .slider img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .slider {
+        max-width: 100%;
+        height: 270px;
+    }
+
+    .slider ul li {
+        max-width: 5%;
+        height: auto;
+    }
+
+    .slider .nav {
+        left: 35%
+    }
+
+    /*------------Slider----------------*/
+    /*endregion*/
+    /*region tovaru*/
+    /*------------Tovaru----------------*/
+    .item_man_1 {
+        width: 80%;
+        margin: 5px auto;
+        margin-left: 10%;
+    }
+
+    .item_man_1:first-child {
+        margin-left: 10%;
+    }
+
+    .item_man_1 h3 a {
+        font-size: 20px;
+    }
+
+    .blockshop {
+        margin: 0;
+    }
+
+    /*------------Tovaru----------------*/
+    /*endregion*/
+    /*region opistovar*/
+    /*------------Opisanie----------------*/
+    .opistovar p {
+        font-size: 16px;
+        overflow: hidden;
+        text-align: left;
+    }
+
+    .opistovar img {
+        width: 100%;
+        float: none;
+    }
+
+    .buybutton {
+        width: 100%;
+        margin: 0;
+    }
+
+    /*------------Opisanie----------------*/
+    /*endregion*/
+    /*region preimush (otzuvu)*/
+    /*------------Preimush(otzuvu)----------------*/
+    .block article {
+        float: none;
+        margin: 0 auto;
+        padding-top: 5px;
+        max-width: 100%;
+        border-top: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .block article:first-child {
+        border: none;
+    }
+
+    .block i {
+        font-size: 45px;
+        color: #444;
+        padding: 10px;
+        display: block;
+
+    }
+
+    /*------------Preimush(otzuvu)----------------*/
+    /*endregion*/
+    /*region novinki*/
+    /*------------Novinki----------------*/
+    .image {
+        width: 75%;
+        height: 280px;
+        float: none;
+        margin: 10px auto;
+    }
+
+    .image p {
+        font-size: 20px;
+    }
+
+    /*------------Novinki----------------*/
+    /*endregion*/
+    /*region form zayavka*/
+    /*------------Forma Zayavka----------------*/
+    .nameform {
+        float: none;
+        font-size: 25px;
+        width: 100%;
+    }
+
+    .formblock {
+        padding-bottom: 70px;
+    }
+
+    .buybutton_form {
+        float: none;
+        font-size: 20px;
+        position: absolute;
+        bottom: 0;
+        left: -10px;
+        width: 100%;
+    }
+
+    /*------------Forma Zayavka----------------*/
+    /*endregion*/
+    .zagolovok {
+        font-size: 25px;
+    }
+
+    .review_table, .buybutton, .currency_price_man_1, .old_price_man_1, .buybutton_sh {
+        font-size: 20px;
+    }
+
+    .buybutton_sh:hover {
+        font-size: 20px;
+    }
+
+    /*region Footer*/
+    /*------------Footer----------------*/
+    .footertableblock a, .footertable {
+        font-size: 12px;
+    }
+
+    #footer1 article {
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .footertableblock, #menufooter {
+        font-size: 16px;
+    }
+
+    /*------------Footer----------------*/
+    /*endregion*/
+    /*region Cart*/
+    /*-------------Cart-----------------*/
+    .item_man_4 {
+        width: 100%;
+    }
+
+    .buybutton_sh_4 {
+        position: relative;
+        bottom: 0;
+        left: 30px;
+    }
+
+    .futu_alert_outer {
+        margin: 0 auto;
+        width: 100%;
+
+        z-index: 9999;
+    }
+
+    /*-------------Cart-----------------*/
+    /*endregion*/
+    /*region Shop*/
+    /*-------------shop-----------------*/
+    .blockshop_2 {
+        width: 70%;
+        padding: 0;
+        overflow: hidden;
+
+    }
+
+    .item_man_2 {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .buybutton_sh_2 {
+        position: absolute;
+        top: 70%;
+        right: 0;
+    }
+
+    /*-------------shop-----------------*/
+    /*endregion*/
+}
+@media only screen and (min-width: 516px) and (max-width: 767px) {
+    /*body, html{
+        width: 100%;
+    }*/
+    .logo {
+        font-size: 100px;
+    }
+
+    #header1 h5 {
+        font-size: 20px;
+        word-wrap: break-word;
+        position: relative;
+
+    }
+
+    /*region menu*/
+    /*------------Menu----------------*/
+    #mainmenu {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 45px;
+        right: 0;
+        display: none;
+        opacity: 0.9;
+    }
+
+    #mainmenu ul li {
+        float: none;
+        margin: 0 5px;
+        font-size: 15px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .menu-toggle {
+        display: block;
+        z-index: 999;
+    }
+
+    #mainmenu ul {
+        z-index: 999;
+        float: none;
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+    .authorize {
+        position: absolute;
+        margin: 20px;
+        top: 25px;
+        right: 30%;
+    }
+
+    /*------------Menu----------------*/
+    /*endregion*/
+
+
+
+    /*------------Slider----------------*/
+    .slider img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .slider {
+        max-width: 100%;
+        height: 400px;
+    }
+
+    .slider ul li {
+        max-width: 8%;
+        height: auto;
+    }
+
+    .slider .nav {
+        left: 40%
+    }
+
+    /*------------Slider----------------*/
+    /*------------Tovaru----------------*/
+    .blockshop {
+        margin: 0;
+    }
+
+    .item_man_1 {
+        width: 24%;
+        margin: 0.5%;
+        line-height: 1.2;
+    }
+
+    .item_man_1 h3 a {
+        font-size: 50%;
+    }
+
+    .item_man_1 h3 {
+        line-height: 0.6
+    }
+
+    .item_man_1 i {
+        font-size: 10px;
+    }
+
+    /*------------Tovaru----------------*/
+    /*------------Opisanie----------------*/
+    .opistovar p {
+        font-size: 17px;
+        overflow: hidden;
+        text-align: left;
+    }
+
+    .opistovar img {
+        width: 50%;
+    }
+
+    .buybutton {
+        width: 100%;
+        margin: 0;
+    }
+
+    /*------------Opisanie----------------*/
+    /*------------Preimush(otzuvu)----------------*/
+    .block article {
+        float: none;
+        margin: 0 auto;
+        padding-top: 5px;
+        max-width: 100%;
+        border-top: 1px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .block article:first-child {
+        border: none;
+    }
+
+    .block i {
+        font-size: 45px;
+        color: #444;
+        padding: 10px;
+        display: block;
+
+    }
+
+    /*------------Preimush(otzuvu)----------------*/
+    /*------------Novinki----------------*/
+    .image {
+        height: 300px;
+        width: 50%;
+        float: left;
+        margin: 0 auto;
+    }
+
+    .image p {
+        font-size: 20px;
+    }
+
+    /*------------Novinki----------------*/
+    /*------------Forma Zayavka----------------*/
+    .nameform {
+        float: none;
+        font-size: 35px;
+        width: 100%;
+    }
+
+    .formblock {
+        padding-bottom: 70px;
+    }
+
+    .buybutton_form {
+        float: none;
+        font-size: 20px;
+        position: absolute;
+        bottom: 0;
+        left: -10px;
+        width: 100%;
+    }
+
+    /*------------Forma Zayavka----------------*/
+    .zagolovok {
+        font-size: 25px;
+    }
+
+    .review_table, .buybutton, .currency_price_man_1, .old_price_man_1, .buybutton_sh {
+        font-size: 20px;
+    }
+
+    .buybutton_sh:hover {
+        font-size: 20px;
+    }
+
+    /*------------Footer----------------*/
+    .footertableblock a, .footertable {
+        font-size: 16px;
+    }
+
+    #footer1 article {
+        float: left;
+        width: 33%;
+        margin: 5px auto;
+        overflow: hidden;
+    }
+
+    .footertableblock, #menufooter {
+        font-size: 16px;
+    }
+
+
+/*------------Footer----------------*/
+/*-------------Cart-----------------*/
+.item_man_4{
+    width: 80%;
+}
+
+}
+/*-------------Cart-----------------*/
+
+/* Tablets (portrait) -------------------- */
+
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: portrait) {
+    /*------------Tovaru----------------*/
+    .blockshop {
+        margin: 0;
+    }
+
+    .item_man_1 {
+        width: 24%;
+        margin: 0.5%;
+        line-height: 1.2;
+    }
+
+    .item_man_1 h3 a {
+        font-size: 50%;
+    }
+
+    .item_man_1 h3 {
+        line-height: 0.6
+    }
+
+    .item_man_1 i {
+        font-size: 10px;
+    }
+
+    /*------------Tovaru----------------*/
+    /*------------Novinki----------------*/
+    .image {
+        height: 220px;
+        width: 33%;
+        margin: 5px auto;
+    }
+
+    .image p {
+        font-size: 20px;
+    }
+
+    /*------------Novinki----------------*/
+    /*------------Menu----------------*/
+    #mainmenu ul li {
+        margin: 0 5px;
+    }
+
+    /*------------Menu----------------*/
+
+}
+
+/* Tablets (landscape) ------------------- */
+@media only screen
+and (min-device-width: 768px)
+and (max-device-width: 1024px)
+and (orientation: landscape) {
+    /*------------Tovaru----------------*/
+    .item_man_1 {
+        width: 24%;
+        margin: 0.5%;
+        line-height: 1.2;
+    }
+
+    .item_man_1 h3 a {
+        font-size: 60%;
+    }
+
+    .item_man_1 h3 {
+        line-height: 0.6
+    }
+
+    .item_man_1 i {
+        font-size: 20px;
+    }
+
+    /*------------Tovaru----------------*/
+    /*-------------Cart-----------------*/
+    .item_man_4{
+        width: 50%;
+    }
+
+
+
+
+
+
+}
+/*-------------Cart-----------------*/
+
